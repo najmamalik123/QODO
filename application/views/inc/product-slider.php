@@ -1,0 +1,27 @@
+		<link rel="stylesheet" type="text/css" href="<?=$flink?>/addons/product-slider/css/elastislide.css" />
+		<script src="<?=$flink?>/addons/product-slider/js/modernizr.custom.17475.js"></script>
+    
+					<ul id="carousel" class="elastislide-list">
+						<li><a href="#"><img src="<?=$flink?>/avator/1.jpg" alt="image01" /></a></li>
+						<li><a href="#"><img src="<?=$flink?>/avator/2.jpg" alt="image02" /></a></li>
+						<li><a href="#"><img src="<?=$flink?>/avator/3.jpg" alt="image03" /></a></li>
+						<li><a href="#"><img src="<?=$flink?>/avator/4.jpg" alt="image04" /></a></li>
+						<li><a href="#"><img src="<?=$flink?>/avator/5.jpg" alt="image05" /></a></li>
+						<li><a href="#"><img src="<?=$flink?>/avator/6.jpg" alt="image06" /></a></li>
+						<li><a href="#"><img src="<?=$flink?>/avator/7.jpg" alt="image07" /></a></li>
+						<li><a href="#"><img src="<?=$flink?>/avator/8.jpg" alt="image08" /></a></li>
+						<li><a href="#"><img src="<?=$flink?>/avator/9.jpg" alt="image09" /></a></li>
+						<li><a href="#"><img src="<?=$flink?>/avator/10.jpg" alt="image10" /></a></li>
+						<li><a href="#"><img src="<?=$flink?>/avator/11.jpg" alt="image11" /></a></li>
+						<li><a href="#"><img src="<?=$flink?>/avator/12.jpg" alt="image12" /></a></li>
+						<li><a href="#"><img src="<?=$flink?>/avator/13.jpg" alt="image13" /></a></li>
+						<li><a href="#"><img src="<?=$flink?>/avator/14.jpg" alt="image14" /></a></li>
+					</ul>
+		<script type="text/javascript" src="<?=$flink?>/addons/product-slider/js/jquery.elastislide.js"></script>
+		<script type="text/javascript">
+			
+			$( '#carousel' ).elastislide( {
+				minItems : 2
+			} );
+			
+		</script>

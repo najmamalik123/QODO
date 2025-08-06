@@ -1,0 +1,1 @@
+<a href="'.$google_client->createAuthUrl().'"><img src="https://yosoy.dev/wp-content/uploads/2018/11/Google-Sign-In.png" /></a>

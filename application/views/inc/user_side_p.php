@@ -1,0 +1,72 @@
+<div class="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar">
+                            
+                            <!-- Profile Sidebar -->
+                            <div class="profile-sidebar">
+                                <div class="widget-profile pro-widget-content" style="background: url(<?=base_url('assets')?>/mem/<?=$profile_data['mid']?>/img/<?=$profile_data['cover']?>);background-size: cover;">
+                                    <div class="profile-info-widget" style="min-height: 200px;">
+                                        <!-- <a href="#" class="booking-doc-img">
+                                        <img alt="" src="<?=base_url('assets')?>/mem/<?=$profile_data['mid']?>/img/<?=$profile_data['photo']?>" onclick="$('#cover_image_90_2').click();" style="cursor: pointer;">
+                                    <form action="<?=base_url('index.php/action/photo')?>" method="post" enctype="multipart/form-data" onsubmit="return uploadandform('<?=base_url('index.php/action/photo')?>','post',this,'cover_image_90_2','progress_value_sc','prog_valie_text','Show_Errors_987','loader_post_upload','1','uni_loader_prog_status');" id='fomr_id_proile2'>
+                                      <input type="file" name="file_name"  id='cover_image_90_2' style="display: none;" onchange="chnageBGDynamic(this,'prifile_pic_09o2','0','1');"/>
+                                      <input type="hidden" name="cvr_prf" value="photo"/>
+                                    </form>
+                                        </a> -->
+                                    </div>
+                                </div>
+                                <div class="profile-det-info p-3" >
+                                            <h3 class="text-black"><?=$_SESSION['name']?></h3>
+                                            
+                                            <div class="patient-details">
+                                                <h5 class="mb-0"><?=$profile_data['user_profile']?></h5>
+                                                <hr/>
+                                                <small><?=trim_text($profile_data['about'],'180','...');?></small>
+                                            </div>
+                                        </div>
+                                <div class="dashboard-widget">
+                                    <nav class="dashboard-menu">
+                                        <ul>
+                                            <li class="active">
+                                                <a href="<?=base_url('profile')?>">
+                                                    <i class="fas fa-columns"></i>
+                                                    <span>Dashboard</span>
+                                                </a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-box-open"></i>
+                                                    <span>My Orders</span>
+                                                    <!-- <small class="unread-msg">23</small> -->
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="<?=base_url('edit')?>">
+                                                    <i class="fas fa-user-cog"></i>
+                                                    <span>Profile Settings</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="<?=base_url('edit/sm')?>">
+                                                    <i class="fas fa-share-alt"></i>
+                                                    <span>Social Media</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="<?=base_url('edit/pass')?>">
+                                                    <i class="fas fa-lock"></i>
+                                                    <span>Change Password</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="<?=base_url('logout')?>">
+                                                    <i class="fas fa-sign-out-alt"></i>
+                                                    <span>Logout</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <!-- /Profile Sidebar -->
+                            
+                        </div>
