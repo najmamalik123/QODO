@@ -12,8 +12,7 @@ class Ai extends CI_Controller
 	{
 
 // set up API credentials and endpoint
-$openai_key = "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";
-$openai_endpoint = "https://api.openai.com/v1/engines/davinci-codex/completions";
+
 
 // set up input prompt
 $input = "Can you give me 5 names for a electric bike ?";
