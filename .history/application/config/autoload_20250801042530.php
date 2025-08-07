@@ -89,7 +89,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url');
+$autoload['helper'] = array('url','text','security','ynaps_helper','ecom_helper','ynaps_uni_helper');
 
 /*
 | -------------------------------------------------------------------
